@@ -65,12 +65,25 @@ h3 {
   font-size: 1.5rem;
 }
 
-/* Profile Image */
-img.profile {
-  width: 200px;
-  border-radius: 50%;
-  display: block;
-  margin: 1rem auto;
+/* Home Section Layout */
+.home-intro {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.profile {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text {
+  flex: 1;
 }
 
 /* Career & Project Cards */
@@ -118,25 +131,7 @@ footer {
   margin-top: 2rem;
 }
 
-.home-intro {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.profile {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.intro-text {
-  flex: 1;
-}
-
+/* Mobile Responsive */
 @media (max-width: 600px) {
   .home-intro {
     flex-direction: column;
