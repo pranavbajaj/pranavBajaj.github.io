@@ -91,7 +91,7 @@ h3 {
 }
 
 /* Career & Project Cards */
-/* .job-entry, .project {
+.job-entry, .project {
   background-color: white;
   border: 1px solid #ddd;
   padding: 1.5rem;
@@ -104,55 +104,6 @@ h3 {
   max-width: 100%;
   border-radius: 10px;
   margin-top: 1rem;
-} */
-
-.job-entry {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-.job-entry .logo {
-  max-width: 80px;
-  height: auto;
-}
-
-.job-details {
-  display: flex;
-  flex-direction: column;
-}
-
-.company-name {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #0d1117;
-}
-
-.job-role,
-.job-location,
-.job-duration {
-  font-size: 1rem;
-  color: #555;
-}
-
-.job-description {
-  margin-left: 6rem;
-  margin-bottom: 2rem;
-}
-
-.job-description ul {
-  list-style: disc inside;
-  margin-top: 0.5rem;
-}
-
-.job-description li {
-  margin-bottom: 0.5rem;
-}
-
-.job-description ul ul {
-  list-style: circle inside;
-  margin-left: 1rem;
 }
 
 /* Blog List */
@@ -195,19 +146,32 @@ footer {
   .intro-text {
     align-items: center;
   }
-  
-  .job-entry {
-    flex-direction: column;
-    align-items: flex-start; /* Left-align content vertically */
-  }
-  .job-entry .logo {
-    margin-bottom: 0.5rem;   /* Space below logo when stacked */
-  }
-  .job-details {
-    display: block;          /* Stack text fields vertically */
-  }
-  .job-details span {
-    display: block;
-    margin-bottom: 0.25rem;  /* Spacing between lines on small screens */
-  }
+}
+
+.clear-guide-entry .job-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.clear-guide-entry .company-logo-small {
+  width: 80px; /* Adjust this for desired size */
+  height: auto;
+  border-radius: 10px;
+}
+
+.clear-guide-entry .job-title-info h3 {
+  margin: 0 0 0.25rem 0;
+}
+
+.clear-guide-entry ul {
+  margin-top: 0.25rem;
+  padding-left: 1.25rem;
+}
+
+.clear-guide-entry h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #333;
 }
