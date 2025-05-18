@@ -192,7 +192,8 @@ footer {
     align-items: flex-start;
   }
 
-  .logo {
+  .job-entry .logo {
+    margin-right: 0;
     margin-bottom: 0.5rem;
   }
 }
