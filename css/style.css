@@ -142,20 +142,23 @@ footer {
 
 .job-entry {
   display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
+  align-items: flex-start; 
   gap: 1rem;
+  margin-bottom: 2rem;
 }
+
 .job-entry .logo {
   flex-shrink: 0;
   margin-right: 1rem;
-  width: 100px;
+  width: 80px;
   height: auto;
 }
+
 .job-details {
   display: flex;
-  align-items: center;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex-grow: 1;
   white-space: nowrap;
 }
 
@@ -186,6 +189,7 @@ footer {
   }
 
   .job-entry .logo {
+    margin-right: 0;
     margin-bottom: 0.5rem;
   }
 
