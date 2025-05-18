@@ -180,3 +180,31 @@ footer {
     margin-bottom: 0.25rem;  /* Spacing between lines on small screens */
   }
 }
+
+/* .clear-guide-entry .job-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.clear-guide-entry .company-logo-small {
+  width: 80px; 
+  height: auto;
+  border-radius: 10px;
+}
+
+.clear-guide-entry .job-title-info h3 {
+  margin: 0 0 0.25rem 0;
+}
+
+.clear-guide-entry ul {
+  margin-top: 0.25rem;
+  padding-left: 1.25rem;
+}
+
+.clear-guide-entry h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+} */
