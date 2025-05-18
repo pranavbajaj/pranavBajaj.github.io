@@ -181,7 +181,7 @@ footer {
   }
 }
 
-/* .clear-guide-entry .job-header {
+.clear-guide-entry .job-header {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -207,5 +207,5 @@ footer {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   color: #333;
-} */
+}
 
