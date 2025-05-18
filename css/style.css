@@ -166,6 +166,11 @@ footer {
   flex-grow: 1;
 }
 
+.job-entry .job-top .job-details .company-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 .job-entry p {
   margin-bottom: 1.2em; /* adjust as needed */
 }
