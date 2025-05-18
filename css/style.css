@@ -142,7 +142,7 @@ footer {
 
 .job-entry {
   margin-bottom: 2.5rem;
-  max-width: none; /* or a higher value */
+  max-width: 100%; /* or a higher value */
   width: 100%;
 }
 
@@ -187,7 +187,7 @@ footer {
 }
 
 .media-video1 video {
-  width: 80%;
+  width: 100%;
   height: auto; 
   /* max-width: 500px; */
   border-radius: 10px;
@@ -203,7 +203,7 @@ footer {
 }
 
 .media-images1 img {
-  width: 80%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
