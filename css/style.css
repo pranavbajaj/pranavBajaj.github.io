@@ -176,20 +176,24 @@ footer {
 /* Media Container For Clear Guide Medical */
 
 .media-container1 {
-  max-width: 100%; /* Increase this as needed */
-  width: 100%;
-  padding: 0 1rem;
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
+  flex-direction: column;  /* stack vertically */
+  align-items: center;     /* center content horizontally */
   gap: 2rem;
   margin: 2rem auto;
-  align-items: center;
+  width: 100%;
+  max-width: 700px;        /* max container width */
+  padding: 0 1rem;
+}
+
+.media-video1 {
+  width: 100%;
+  max-width: 700px;       /* video max width */
 }
 
 .media-video1 video {
   width: 100%;
-  height: auto; 
-  /* max-width: 500px; */
+  height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -198,8 +202,8 @@ footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  /* max-width: 500px; */
-  flex: 1;
+  width: 100%;
+  max-width: 400px;       /* images grid max width */
 }
 
 .media-images1 img {
