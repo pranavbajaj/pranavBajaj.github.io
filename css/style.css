@@ -177,18 +177,17 @@ footer {
   display: flex;
   gap: 2rem;
   margin: 2rem 0;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
-.job-entry .media-video1 video {
+.job-entry .media-container1 .media-video1 video {
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.job-entry .media-images1 {
+.job-entry .media-container1 .media-images1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
@@ -196,7 +195,7 @@ footer {
   flex: 1;
 }
 
-.job-entry .media-images1 img {
+.job-entry .media-container1 .media-images1 img {
   width: 100%;
   border-radius: 8px;
   object-fit: cover;
