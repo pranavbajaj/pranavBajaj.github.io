@@ -166,14 +166,23 @@ footer {
   flex-grow: 1;
 }
 
+.job-entry p {
+  margin-bottom: 1.2em; /* adjust as needed */
+}
+
+.job-entry h4 {
+  font-size: 1rem; /* adjust size (e.g., 0.9rem for even smaller) */
+  margin-top: 0.5em;
+}
+
 .job-entry ul {
   margin-bottom: 1rem;
+  margin-left: 1.5em;
 }
 
 .job-entry:not(:last-child) {
   margin-bottom: 2.5rem;
 }
-
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
