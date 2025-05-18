@@ -142,6 +142,8 @@ footer {
 
 .job-entry {
   margin-bottom: 2.5rem;
+  max-width: none; /* or a higher value */
+  width: 100%;
 }
 
 .job-top {
@@ -174,16 +176,19 @@ footer {
 /* Media Container For Clear Guide Medical */
 
 .media-container1 {
+  max-width: 1200px; /* Increase this as needed */
+  width: 100%;
   display: flex;
   flex-direction: column; /* Stack elements vertically */
   gap: 2rem;
-  margin: 2rem 0;
+  margin: 2rem auto;
   align-items: center;
 }
 
 .media-video1 video {
-  width: 100%;
-  max-width: 500px;
+  width: 80%;
+  height: auto; 
+  /* max-width: 500px; */
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -192,12 +197,13 @@ footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  max-width: 500px;
+  /* max-width: 500px; */
   flex: 1;
 }
 
 .media-images1 img {
-  width: 100%;
+  width: 80%;
+  height: auto;
   border-radius: 8px;
   object-fit: cover;
 }
