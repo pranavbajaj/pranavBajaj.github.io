@@ -141,10 +141,14 @@ footer {
 
 
 .job-entry {
+  margin-bottom: 2.5rem;
+}
+
+.job-top {
   display: flex;
-  align-items: flex-start; 
+  align-items: flex-start;
   gap: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .job-entry .logo {
@@ -183,22 +187,12 @@ footer {
     align-items: center;
   }
 
-  .job-entry {
+  .job-top {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .job-entry .logo {
-    margin-right: 0;
+  .logo {
     margin-bottom: 0.5rem;
-  }
-
-  .job-details {
-    display: block;
-  }
-
-  .job-details span {
-    display: block;
-    margin-bottom: 0.25rem;
   }
 }
