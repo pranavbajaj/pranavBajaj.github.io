@@ -26,7 +26,7 @@
         <img src="assets/images/pranav.jpg" alt="Pranav Bajaj" class="profile" />
         <div class="intro-text">
           <h1>Pranav Bajaj</h1>
-          <p>Robotics & AI Engineer | Visionary for Human-Robot Collaboration</p>
+          <p>Robotics & AI Engineer</p>
         </div>
       </div>
       <h2>About Me</h2>
@@ -71,13 +71,13 @@
 
         <h4>AI & Computer Vision: </h4>
         <ul>
-          <li>Developed foundational models capable of tracking a wide range of biopsy needles, including accounting for needle bending to improve trajectory prediction. Optimized inference pipelines using PyTorch, TensorRT, and quantization techniques—achieving a 200% speedup in performance.
+          <li>Designed and trained deep model architectures in PyTorch to accurately track a wide range of biopsy needles, including modeling needle bending - crucial for accurate trajectory prediction. Optimized inference pipelines using PyTorch, TensorRT, and quantization techniques—achieving a 200% speedup in performance.
           </li>
         </ul>
 
         <h4>Clinical Integration & Deployment: </h4>
         <ul>
-          <li>Spearheaded the integration of our AI-based needle tracking model into the company’s medical device. This enabled real-time performance and led to 12 successful human trials, achieving sub-mm precision in needle localization.
+          <li>Integrated of our AI-based needle tracking model into the company’s medical device. This enabled real-time performance and led to 12 successful human trials, achieving sub-mm precision in needle localization.
           </li>
         </ul>
 
@@ -124,6 +124,41 @@
         <p>Developed zero-shot learning and segmentation models for localizing biopsy needles in ultrasound images.</p>
         <img src="assets/images/needle-tracking.png" alt="Needle Tracking" />
       </div>
+
+      <div class="project">
+        <h3>Sensor Fusion for Localizing Vehicles on the Road</h3>
+        <p>
+          Developed a sensor fusion pipeline using data from Camera, Radar, and Lidar to enhance vehicle localization and safety on the road.
+        </p>
+        <img src="assets/images/ukf_highway_tracked.gif" alt="Sensor Fusion Simulation" />
+
+        <h4>Project Aim</h4>
+        <p>
+          To improve vehicle awareness and collision prediction by fusing multi-sensor data using an Unscented Kalman Filter.
+        </p>
+
+        <h4>My Contributions</h4>
+        <ul>
+          <li>Implemented an Unscented Kalman Filter (UKF) for multi-sensor vehicle localization.</li>
+          <li>Calibrated cameras and performed hand-eye calibration with other sensors.</li>
+          <li>Evaluated keypoint detectors (HARRIS, FAST, BRISK, SIFT) for feature tracking.</li>
+          <li>Segmented Lidar point clouds using K-D tree clustering.</li>
+          <li>Computed velocity and range from radar data using Doppler and Fourier Transform.</li>
+          <li>Estimated time-to-collision for safer navigation decisions.</li>
+        </ul>
+
+        <h4>Skills and Algorithms Used</h4>
+        <ul>
+          <li>Sensor Fusion (Camera, Lidar, Radar)</li>
+          <li>Unscented Kalman Filter (UKF)</li>
+          <li>Camera Calibration & Hand-Eye Calibration</li>
+          <li>Keypoint Matching (HARRIS, FAST, BRISK, SIFT)</li>
+          <li>K-D Tree Clustering for Lidar</li>
+          <li>Doppler Effect & FFT for Radar</li>
+          <li>C++, OpenCV, PCL, Python</li>
+        </ul>
+      </div>
+
     </section>
 
     <section id="blog">
