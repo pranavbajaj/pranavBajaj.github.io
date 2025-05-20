@@ -52,7 +52,7 @@ h1, h2, h3 {
 }
 
 h4 {
-  color: #236cda;
+  color: #0d1117;
   margin-bottom: 0.1rem;
 }
 
@@ -236,13 +236,23 @@ footer {
 
 
 .job-entry ul {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   margin-left: 1.5em;
 }
 
 .job-entry:not(:last-child) {
   margin-bottom: 2.5rem;
 }
+
+
+/* For Project section  */
+
+.project ul {
+  margin-bottom: 0.5rem;
+  margin-left: 1.5em;
+}
+
+/* END for Project section  */
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
