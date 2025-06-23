@@ -71,7 +71,7 @@
 
         <h4>AI & Computer Vision: </h4>
         <ul>
-          <li>Designed and trained deep model architectures in PyTorch to accurately track a wide range of biopsy needles, including modeling needle bending - crucial for accurate trajectory prediction. Optimized inference pipelines using PyTorch, TensorRT, and quantization techniques—achieving a 200% speedup in performance.
+          <li>Designed and trained novel deep model architectures in PyTorch to accurately track a wide range of biopsy needles, including modeling needle bending - crucial for accurate trajectory prediction. Optimized inference pipelines using PyTorch, TensorRT, and quantization techniques—achieving a 200% speedup in performance.
           </li>
         </ul>
 
@@ -99,12 +99,41 @@
             <span class="job-duration">Jan 2022 – May 2023</span>
           </div>
         </div>
-        <p><strong>Overview:</strong> Developed needle tip tracking for MRI-guided biopsies using Kalman filters.</p>
-        <h4>Highlights</h4>
+
+        <div class="media-container1">
+          <!-- Right: 2x2 Grid of Images -->
+          <div class="media-images1">
+            <img src="assets/images/thesis1.png" alt="Image 1" />
+            <img src="assets/images/thesis2.png" alt="Image 2" />
+          </div>
+        </div>
+
+        <p><strong>Overview:</strong> Developed an Extended Kalman Filter-based framework for real-time needle tip localization during MRI-guided prostate biopsies, with a focus on improving estimation accuracy despite sparse observations and needle bending in soft tissue.</p>
+
+        <h4>State Estimation & Sensor Fusion</h4>
         <ul>
-          <li>Designed ROS2-based control for multi-linear stage insertion systems.</li>
-          <li>Enhanced EKF with Broyden’s update for robust localization.</li>
+          <li>Developed a non-linear Extended Kalman Filter (EKF) for needle tip pose estimation under sparse and delayed MRI observations.</li>
+          <li>Integrated MRI data with a EKF motion model.</li>
+          <li>Applied Broyden’s update to refine the process model, significantly enhancing prediction accuracy and robustness.</li>
         </ul>
+
+        <h4>Hardware & Software Integration</h4>
+        <ul>
+          <li>Designed a custom needle insertion system using industrial-grade linear and vertical stages for precision motion.</li>
+          <li>Integrated control and estimation in ROS2 + Orocos, leveraging the Real-Time Toolkit (RTT) and DDR communication for deterministic performance.</li>
+        </ul>
+
+        <h4>Real-Time Robotics System Design</h4>
+        <ul>
+          <li>Implemented a real-time, closed-loop localization system with robust performance in the presence of noise, delays, and dynamic model inaccuracies.</li>
+          <li>Validated estimation pipeline through experiments using real sensor data and simulated MRI feedback.</li>
+        </ul>
+
+        <h4>Achievements</h4>
+        <ul>
+          <li>Imporved localization accuracy of needle tracking by around 30%.</li>
+        </ul>
+
       </div>
 
     </section>
